@@ -1,0 +1,162 @@
+﻿ADB: Android debug bridge, a command line tool for executing actions on your phone via your computer. See: Developer Options
+
+
+AMOLED: Advanced Matrix Organic Light Emitting Diode, a display technology that has features such as a low refresh rate and pure black pixels.
+
+
+AOSP: Android Open Source Project. Generally considered to be “pure” Android with no modifications. All ROMs are based on this to some extent.
+
+
+APK: The filename extension for Android app installers.
+
+
+Baseband:
+
+
+Bootloader: Low-level program that controls the startup procedures. If a custom ROM or recovery is to be installed, the bootloader must be unlocked.
+
+
+CAF: Code Aurora Foundation, a project to open source code for certain hardware by their manufacturers. Qualcomm’s contributions make much of XDA’s Snapdragon projects possible.
+
+
+Custom ROM: A community made ROM, usually close to AOSP. Often has a newer Android version than stock, especially in the case of an obsolete device. Usually buggy. 
+
+
+Developer Options: A secret settings menu where ADB can be enabled, among other things. Usually enabled by going to Settings/About Phone and tapping on build number several times.
+
+
+Dirty Unicorns: A custom ROM based on AOSP/CAF with additional features mostly focused on customization. 
+
+
+Essential: An American OEM. Their one device thus far, the PH-1, has been generally well received by the community. Notably, the stock ROM runs stock android and has been updated rapidly. 
+
+
+Exynos: A primarily proprietary SoC made by Samsung Electronics for Samsung devices. Most phones which use said processor are sold outside of the United States. The term has been used to compare variants of newer Samsung phones with regional counterparts, such as Snapdragon. See “Snapdragon” 
+
+
+Fastboot: Similar to ADB, a command line tool for flashing partitions. Also has a partition on device, like recovery. Booting into it enables fastboot operations to be performed.
+
+
+Flash: Installing a ROM or other software, usually through recovery or ADB. A clean flash means certain partitions are to be wiped before flashing. A dirty flash means to install over these partitions without wiping them.
+
+
+FOSS: Free and open source software. 
+Gapps: Google apps, a separate zip for custom ROMs to add Google Play Services to a custom  ROM.
+
+
+Huawei: A Chinese OEM. Previously very development friendly, they recently stopped unlocking bootloaders on their devices. Their devices run Kirin SoCs. 
+
+
+Kernel: A program in Android that controls the hardware it's installed on. Custom kernels are available for some devices, offering better performance and features. 
+
+
+KingRoot/KingoRoot: Similar to OneClickRoot.
+
+
+Kirin: SoCs made by HiSilicon for Huawei. They are used in Huawei and Honor phones and offer decent performance. Usually good community support.
+
+
+LG: A Korean OEM. Development is generally very hit or miss with their devices. Known for slow updates.
+
+
+LineageOS: One of the most popular custom ROMs. AOSP based, with minimal additional features. 
+
+
+LineageOS-su: LineageOS’s root provider. Minimal features.
+
+
+Magisk: A root provider with a built in module repository. Installs systemlessly, so it doesn’t break Safetynet. FOSS.
+
+
+Micro USB: The previous phone connection standard. Not reversible. 
+
+
+MIUI: Xiaomi’s Android skin. Known to have excessive ads/tracking built into it. Ports exist for non-Xiaomi devices. See: MIUI
+
+
+Motorola: A Chinese OEM. Has near stock Android. Has many product lines for budget, midrange, and flagship. 
+
+
+MTK: SoCs made by MediaTek. Generally used in budget devices. Usually has poor performance and bad community support.
+
+
+Nexus: Google’s discontinued device line. Known for being targeted to developers, devices in this line generally had exceptional community support.
+
+
+OneClickRoot: An app that claims to root devices using exploits. High risk of malware and adware. Occasionally works for devices with no other support. See: KingRoot/KingoRoot
+
+
+OnePlus: A Chinese OEM. Their devices have been very well received and supported by the community. The stock android skin, OxygenOS, has near-stock android but has had controversy over data mining.
+
+
+Partition: A division of device storage. Commonly used to compartmentalize recovery, fastboot, ROM, system files, etc. Example partitions: /system/: The ROM is installed here. /data/: User info such as apps and media is kept here.
+
+
+Pixel: Google’s device line. Generally well supported by the community, excluding the bootloader locked Verizon models.
+
+
+Recovery: A partition of an android device. A minimal ROM lives here that allows operations to be performed, such as applying updates and factory resetting, if the ROM is unavailable. See: TWRP
+
+
+RIL: Radio interface layer, the program that controls calls, mobile data, and SMS.
+
+
+ROM: Read only memory. A term for the installed Android operating system. See: Custom ROM, Stock ROM
+
+
+Root: Access to the root folder of a device, generally inaccessible by default. Rooting is a fairly complicated process. Rooting enables many useful operations to be performed that are unavailable otherwise. See: Magisk, SuperSU
+
+
+SafetyNet: A service made by Google to detect vulnerabilities in devices. Certain apps that use it aggressively won’t work if the device is bootloader unlocked or rooted. E.G. Snapchat, Netflix and many banking apps.
+
+
+Samsung: A Korean OEM. They make the extremely popular Galaxy S and Note product lines. 
+They use Snapdragon and Exynos SoCs. U.S. Snapdragon devices are not bootloader unlockable. Runs a heavy android skin. Known for slow updates.
+
+
+Sideload: Installing software without using the default method, usually the Play Store. Can be done with APKs and ADB.
+
+
+Snapdragon: A type of SoC made by Qualcomm for Android devices. The most common SoC in U.S. devices. Usually good community support. Consists of 3 lines: SD4XX (budget), SD6XX (mid-range) and SD8XX (flagship). A planned SD7XX line has recently been announced.
+
+
+SoC: System on a chip. The term for the CPU and related components on the device’s motherboard. 
+
+
+Sprint : A U.S. carrier that uses CDMA. Sprint devices seem to not have good community support.
+
+
+Stock ROM: The ROM installed on a phone by the manufacturer. Usually modified heavily from AOSP.
+
+
+Substratum: A theming platform. Usually needs root to work, but not in some cases.
+
+
+SuperSU: A root provider. Since it was sold to a Chinese company, it’s not known how safe it is anymore. Generally not recommended on XDA. 
+
+
+Treble: A low-level framework for the OS . A device with it can boot a generic Android 8+ image with no modifications. Treble is implemented for all new devices launching with Android 8.0 and beyond. Some devices have had treble backported. Makes custom ROM development significantly easier. XDA explanation
+
+
+TWRP: TeamWin Recovery Project, a user-made recovery that allows for more advanced options than the default recovery.
+
+
+USB-C: A new phone connection standard, used in most new phones. Reversible, with support for video, audio, and high-speed charging.
+
+
+USB OTG: USB On The Go, a protocol that allows you to connect USB devices such as mice and keyboards to your device.
+
+
+Verizon: A U.S. carrier that uses CDMA. Verizon device variants are usually very difficult, if not impossible to bootloader unlock with no official method provided. 
+
+
+VoLTE: Voice over LTE, a technology that lets you make calls over your mobile internet for better call quality. Usually difficult to get working in custom ROMs.
+
+
+Xiaomi: A Chinese OEM. They have two phone lines: Mi (Flagship) and Redmi (Budget) The Snapdragon variants of their phones usually have good community support. Runs a heavy android skin.
+
+
+Xposed: A framework that runs on root. Has many useful modules.
+
+
+ZTE: A Chinese OEM. Mostly makes budget devices. Community support is usually non existent, with the notable exception of the Axon 7.
